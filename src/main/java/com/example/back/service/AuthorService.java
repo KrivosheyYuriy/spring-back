@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Set;
 
 public interface AuthorService {
-    public AuthorDto getAuthor(Long id);
-    public AuthorDto addAuthor(AuthorDto author);
-    public AuthorDto updateAuthor(Long id, AuthorDto author);
-    public AuthorDto deleteAuthorByID(Long id);
-    public Set<Book> getBooks(Long id);
+    public Author getAuthor(Long id);
+    public Author addAuthor(AuthorDto author);
+    public Author updateAuthor(Long id, AuthorDto author);
+    public Author deleteAuthorByID(Long id);
+    public List<Book> getBooks(Long id);
 }

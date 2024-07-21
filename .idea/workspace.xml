@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25aceaef-dbbe-4314-9ef1-eed1ad3bef3d" name="Changes" comment="" />
+    <list default="true" id="25aceaef-dbbe-4314-9ef1-eed1ad3bef3d" name="Changes" comment="Initialized">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/back/convertor/GenreConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/back/convertor/PublishingConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/GenreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/GenreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/PublishingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/controllers/PublishingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/domain/exception/HasDependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/domain/exception/HasDependenciesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/dto/Genre/GenreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/dto/Genre/GenreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/models/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/models/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/models/Publishing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/models/Publishing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/repo/AuthorRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/repo/AuthorRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/repo/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/repo/BookRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/GenreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/PublishingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/PublishingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/GenreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/GenreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/PublishingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/back/service/impl/PublishingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/controllers/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/controllers/AuthorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/controllers/GenreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/controllers/GenreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/controllers/PublishingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/controllers/PublishingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/dto/Genre/GenreDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/dto/Genre/GenreDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/repo/AuthorRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/repo/AuthorRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/repo/BookRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/repo/BookRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/PublishingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/PublishingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/AuthorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/GenreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/GenreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/PublishingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/back/service/impl/PublishingServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +51,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,45 +67,47 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2jSInUvh3ODptJ0ZMFAtWghBM0W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "HTTP Request.generated-requests | #3.executor": "Run",
-    "HTTP Request.generated-requests | #5.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.BackApplication.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/yura/IdeaProjects/back/src/main/resources",
-    "last_opened_file_path": "/home/yura/IdeaProjects/back/src/main/java/com/example/back/dto/Publishing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BackApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/yura/IdeaProjects/back/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yura/IdeaProjects/back/src/main/java/com/example/back/controllers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/back/controllers" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/back/dto/Publishing" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/back/dto/Genre" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/back/dto/Book" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BackApplication">
@@ -93,9 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #5" />
       </list>
     </recent_temporary>
@@ -119,11 +159,39 @@
       <workItem from="1721374219672" duration="2287000" />
       <workItem from="1721381477041" duration="17570000" />
       <workItem from="1721460202544" duration="2467000" />
-      <workItem from="1721462700425" duration="10637000" />
+      <workItem from="1721462700425" duration="14710000" />
+      <workItem from="1721488622707" duration="547000" />
+      <workItem from="1721490117096" duration="431000" />
+      <workItem from="1721552891723" duration="9665000" />
+      <workItem from="1721567958813" duration="4385000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialized">
+      <option name="closed" value="true" />
+      <created>1721479580689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721479580689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized" />
   </component>
 </project>

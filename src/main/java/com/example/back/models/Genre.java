@@ -27,5 +27,4 @@ public class Genre {
     private String name;
     @Column(nullable = true)
     private String description;
-
 }

@@ -1,0 +1,154 @@
+DELETE http://localhost:8080/api/book/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-20T182507.404.json
+
+###
+
+POST http://localhost:8080/api/book
+Content-Type: application/json
+Content-Length: 503
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "authors": [{
+    "surname": "Ильф",
+    "name": "Илья"
+  }, {
+    "surname": "Петров",
+    "name": "Евгений"
+  }],
+  "publishing": {
+    "title": "Издательство2",
+    "email": "2@mail.ru",
+    "phone": "56567768678"
+  },
+  "genres": [{"name": "Приключение"}, {
+    "name": "Комедия"
+  }
+  ],
+  "title": "12 стульев",
+  "editor": "Центриздат",
+  "description": "",
+  "pages": 345,
+  "yearOfPublication": 2005,
+  "ISBN": "4576565"
+}
+
+<> 2024-07-20T181048.200.json
+
+###
+
+POST http://localhost:8080/api/book
+Content-Type: application/json
+Content-Length: 503
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "authors": [{
+    "surname": "Ильф",
+    "name": "Илья"
+  }, {
+    "surname": "Петров",
+    "name": "Евгений"
+  }],
+  "publishing": {
+    "title": "Издательство2",
+    "email": "2@mail.ru",
+    "phone": "56567768678"
+  },
+  "genres": [{"name": "Приключение"}, {
+    "name": "Комедия"
+  }
+  ],
+  "title": "12 стульев",
+  "editor": "Центриздат",
+  "description": "",
+  "pages": 345,
+  "yearOfPublication": 2005,
+  "ISBN": "4576565"
+}
+
+<> 2024-07-20T180913.500.json
+
+###
+
+POST http://localhost:8080/api/book
+Content-Type: application/json
+Content-Length: 532
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "authors": [{
+    "surname": "Ильф",
+    "name": "Илья"
+  }, {
+    "surname": "Петров",
+    "name": "Евгений"
+  }],
+  "publishing": {
+    "title": "Издательство1",
+    "email": "1@mail.ru",
+    "phone": "893298984898"
+  },
+  "genres": [{"name": "Приключение"}, {
+    "name": "Комедия"
+  }
+  ],
+  "title": "Золотой теленок",
+  "editor": "Центриздат",
+  "description": "",
+  "pages": 350,
+  "yearOfPublication": 2005,
+  "ISBN": "83479873223-2342-34-324"
+}
+
+<> 2024-07-20T180544.500.json
+
+###
+
+POST http://localhost:8080/api/book
+Content-Type: application/json
+Content-Length: 532
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "authors": [{
+    "surname": "Ильф",
+    "name": "Илья"
+  }, {
+    "surname": "Петров",
+    "name": "Евгений"
+  }],
+  "publishing": {
+    "title": "Издательство1",
+    "email": "1@mail.ru",
+    "phone": "893298984898"
+  },
+  "genres": [{"name": "Приключение"}, {
+    "name": "Комедия"
+  }
+  ],
+  "title": "Золотой теленок",
+  "editor": "Центриздат",
+  "description": "",
+  "pages": 350,
+  "yearOfPublication": 2005,
+  "ISBN": "83479873223-2342-34-324"
+}
+
+<> 2024-07-20T180513.200.json
+
+###
+

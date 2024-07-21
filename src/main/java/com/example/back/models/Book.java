@@ -23,7 +23,7 @@ public class Book {
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "books")
     private Set<Author> authors = new HashSet<>();
 
-    @OneToOne(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "publishingId", referencedColumnName = "id")
     private Publishing publishing;
 
@@ -51,4 +51,33 @@ public class Book {
     @Column(unique = true)
     private String ISBN;
 
+    public void addAuthor(Author author) {
+        this.authors.add(author);
+        author.getBooks().add(this);
+    }
+
+    public void removeAuthor(Author author) {
+        this.authors.remove(author);
+        author.getBooks().remove(this);
+    }
+
+    public void addGenre(Genre genre) {
+        this.genres.add(genre);
+        genre.getBooks().add(this);
+    }
+
+    public void removeGenre(Genre genre) {
+        this.genres.remove(genre);
+        genre.getBooks().remove(this);
+    }
+
+    public void addBookToPublishing(Publishing publishing) {
+        this.setPublishing(publishing);
+        publishing.getBooks().add(this);
+    }
+
+    public void removeBookFromPublishing(Publishing publishing) {
+        this.setPublishing(null);
+        publishing.getBooks().remove(this);
+    }
 }

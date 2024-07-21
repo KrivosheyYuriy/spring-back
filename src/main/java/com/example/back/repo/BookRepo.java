@@ -15,6 +15,8 @@ public interface BookRepo extends CrudRepository<Book, Long> {
     List<Book> findByEditor(String editor);
     List<Book> findByYearOfPublication(int yearOfPublication);
     List<Book> findByPublishing(Publishing publishing);
-    List<Book> findByAuthors(List<Author> authors);
+    List<Book> findBooksByAuthorsId(Long bookId);
+    List<Book> findBooksByPublishingId(Long publishingId);
+    List<Book> findBooksByGenresId(Long genreId);
     Book findByISBN(String ISBN);
 }
